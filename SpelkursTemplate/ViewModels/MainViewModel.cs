@@ -10,7 +10,8 @@ public class MainViewModel
             _ => RegisterScore()
             );
     }
-    public int Name { get; set; } = 1;
+    public string Name { get; set; } = "Erik Öberg"; // nytt namn
+    public string GradeColor { get; set; }
 
 
     public ICommand RegisterScoreCommand { get; }
