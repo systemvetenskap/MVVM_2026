@@ -1,5 +1,6 @@
 ﻿namespace SpelkursTemplate.ViewModels;
 
+using SpelkursTemplate.Commands;
 using System.Windows.Input;
 
 namespace ClimbingScore.ViewModels;
