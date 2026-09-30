@@ -3,7 +3,6 @@
 using SpelkursTemplate.Commands;
 using System.Windows.Input;
 
-namespace ClimbingScore.ViewModels;
 
 public class MainViewModel
 {

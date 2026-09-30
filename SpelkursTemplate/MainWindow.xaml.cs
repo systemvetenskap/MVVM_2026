@@ -1,4 +1,4 @@
-﻿using SpelkursTemplate.ViewModels.ClimbingScore.ViewModels;
+﻿using SpelkursTemplate.ViewModels;
 using System.Windows;
 
 namespace SpelkursTemplate
