@@ -12,7 +12,7 @@ public class MainViewModel
             _ => RegisterScore()
             );
     }
-    public string Name { get; set; } = "Erik Öberg";
+    public string Name { get; set; } = "Erik Öberg"; // nytt namn
     public string GradeColor { get; set; }
 
 
