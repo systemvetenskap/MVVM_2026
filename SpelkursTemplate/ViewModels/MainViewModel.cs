@@ -1,6 +1,4 @@
 ﻿namespace SpelkursTemplate.ViewModels;
-
-using SpelkursTemplate.Commands;
 using System.Windows.Input;
 
 
@@ -12,7 +10,7 @@ public class MainViewModel
             _ => RegisterScore()
             );
     }
-    public string Name { get; set; } = "Erik";
+    public int Name { get; set; } = 1;
 
 
     public ICommand RegisterScoreCommand { get; }
