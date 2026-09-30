@@ -21,42 +21,5 @@ public class MainViewModel
     {
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public void Test()
-    {
-        Student erik = new();
-
-        Teacher eva = new();
-
-    }
-
-    public void Greet(ICanGreet member)
-    {
-        Name = member.SayHello();
-    }
 }
 
