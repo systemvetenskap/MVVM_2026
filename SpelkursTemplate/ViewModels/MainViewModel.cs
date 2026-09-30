@@ -1,5 +1,4 @@
 ﻿namespace SpelkursTemplate.ViewModels;
-
 using System.Windows.Input;
 
 namespace ClimbingScore.ViewModels;
@@ -12,7 +11,7 @@ public class MainViewModel
             _ => RegisterScore()
             );
     }
-    public string Name { get; set; } = "Erik";
+    public int Name { get; set; } = 1;
 
 
     public ICommand RegisterScoreCommand { get; }
